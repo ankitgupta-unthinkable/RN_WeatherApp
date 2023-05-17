@@ -1,5 +1,6 @@
 import axios from "axios";
-import { API_KEY, BASE_URL, FORCAST_END_POINT, KEY } from "./api_constants";
+import { FORCAST_END_POINT, KEY } from "./api_constants";
+import { API_KEY, BASE_URL } from '@env';
 
 const FORCAST_API_URL = `${BASE_URL}${FORCAST_END_POINT}?${KEY}=${API_KEY}&aqi=no&alerts=no`;
 
